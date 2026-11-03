@@ -1,0 +1,51 @@
+{
+  "m4fspeed": {
+    "keypair": 569210,
+    "encaps": 583352,
+    "decaps": 618948,
+    "iterations": 1,
+    "ok": true
+  },
+  "m4fspeed-ftcm-c1": {
+    "keypair": 574831,
+    "encaps": 580468,
+    "decaps": 620742,
+    "iterations": 1,
+    "ok": true
+  },
+  "m4fspeed-ftcm-c2": {
+    "keypair": 605738,
+    "encaps": 601616,
+    "decaps": 655476,
+    "iterations": 1,
+    "ok": true
+  },
+  "m4fspeed-ftcm-ratsu": {
+    "keypair": 614650,
+    "encaps": 597409,
+    "decaps": 654624,
+    "iterations": 1,
+    "ok": true
+  },
+  "m4fspeed-ftcm-rats": {
+    "keypair": 696073,
+    "encaps": 641089,
+    "decaps": 741984,
+    "iterations": 1,
+    "ok": true
+  },
+  "m4fspeed-ftcm-allu": {
+    "keypair": 652912,
+    "encaps": 616540,
+    "decaps": 692886,
+    "iterations": 1,
+    "ok": true
+  },
+  "m4fspeed-ftcm-all": {
+    "keypair": 734251,
+    "encaps": 660178,
+    "decaps": 780162,
+    "iterations": 1,
+    "ok": true
+  }
+}

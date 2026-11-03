@@ -1,0 +1,55 @@
+{
+  "trials": 2000,
+  "seed": 13,
+  "rows": [
+    {
+      "k0": 1,
+      "free_coeffs_per_poly": 2,
+      "distinct_mean": 1.728,
+      "C2_detect": 1.0,
+      "effective_secret_is_prefix_of_s": true
+    },
+    {
+      "k0": 2,
+      "free_coeffs_per_poly": 4,
+      "distinct_mean": 3.05,
+      "C2_detect": 1.0,
+      "effective_secret_is_prefix_of_s": true
+    },
+    {
+      "k0": 4,
+      "free_coeffs_per_poly": 8,
+      "distinct_mean": 6.859,
+      "C2_detect": 1.0,
+      "effective_secret_is_prefix_of_s": true
+    },
+    {
+      "k0": 8,
+      "free_coeffs_per_poly": 16,
+      "distinct_mean": 15.7025,
+      "C2_detect": 1.0,
+      "effective_secret_is_prefix_of_s": true
+    },
+    {
+      "k0": 16,
+      "free_coeffs_per_poly": 32,
+      "distinct_mean": 31.83,
+      "C2_detect": 1.0,
+      "effective_secret_is_prefix_of_s": true
+    },
+    {
+      "k0": 32,
+      "free_coeffs_per_poly": 64,
+      "distinct_mean": 63.3765,
+      "C2_detect": 1.0,
+      "effective_secret_is_prefix_of_s": true
+    },
+    {
+      "k0": 64,
+      "free_coeffs_per_poly": 128,
+      "distinct_mean": 125.63,
+      "C2_detect": 0.915,
+      "effective_secret_is_prefix_of_s": true
+    }
+  ]
+}

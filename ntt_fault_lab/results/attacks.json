@@ -1,0 +1,145 @@
+{
+  "seed": 7,
+  "key_recovery": [
+    {
+      "param": "ML-KEM-512",
+      "fault": "zero on NTT(s)",
+      "trials": 100,
+      "success": 1.0,
+      "device_decrypts_correctly": 1.0,
+      "search_time_s": 0.028166532516479492
+    },
+    {
+      "param": "ML-KEM-768",
+      "fault": "zero on NTT(s)",
+      "trials": 100,
+      "success": 1.0,
+      "device_decrypts_correctly": 1.0,
+      "search_time_s": 0.270269021987915
+    },
+    {
+      "param": "ML-KEM-768",
+      "fault": "zero on NTT(s), NTT(e)",
+      "trials": 100,
+      "success": 1.0,
+      "device_decrypts_correctly": 1.0,
+      "search_time_s": 0.2751753211021423
+    },
+    {
+      "param": "ML-KEM-1024",
+      "fault": "zero on NTT(s)",
+      "trials": 10,
+      "success": 1.0,
+      "device_decrypts_correctly": 1.0,
+      "search_time_s": 11.154260635375977
+    },
+    {
+      "param": "ML-KEM-768",
+      "fault": "no fault",
+      "trials": 50,
+      "success": 0.0,
+      "device_decrypts_correctly": 1.0,
+      "search_time_s": 0.47230819702148436
+    },
+    {
+      "param": "ML-KEM-768",
+      "fault": "stuck c=+1",
+      "trials": 50,
+      "success": 0.0,
+      "device_decrypts_correctly": 0.0,
+      "search_time_s": 0.5563583040237426
+    },
+    {
+      "param": "ML-KEM-768",
+      "fault": "stuck c=+1 on NTT(s), NTT(e)",
+      "trials": 50,
+      "success": 0.0,
+      "device_decrypts_correctly": 0.0,
+      "search_time_s": 0.5602353382110595
+    },
+    {
+      "param": "ML-KEM-768",
+      "fault": "stuck c=-1",
+      "trials": 50,
+      "success": 0.0,
+      "device_decrypts_correctly": 0.0,
+      "search_time_s": 0.5524752521514893
+    },
+    {
+      "param": "ML-KEM-768",
+      "fault": "stuck c=17",
+      "trials": 50,
+      "success": 0.0,
+      "device_decrypts_correctly": 0.0,
+      "search_time_s": 0.3928768253326416
+    },
+    {
+      "param": "ML-KEM-768",
+      "fault": "stuck generic c",
+      "trials": 50,
+      "success": 0.0,
+      "device_decrypts_correctly": 0.0,
+      "search_time_s": 0.265118203163147
+    },
+    {
+      "param": "ML-KEM-768",
+      "fault": "random redirection",
+      "trials": 50,
+      "success": 0.0,
+      "device_decrypts_correctly": 0.0,
+      "search_time_s": 0.48037219047546387
+    },
+    {
+      "param": "ML-KEM-768",
+      "fault": "shifted (delta=1)",
+      "trials": 50,
+      "success": 0.0,
+      "device_decrypts_correctly": 0.0,
+      "search_time_s": 0.5591113233566284
+    }
+  ],
+  "message_recovery": [
+    {
+      "param": "ML-KEM-768",
+      "fault": "zero on NTT(r)",
+      "trials": 100,
+      "success": 1.0,
+      "receiver_decrypts_correctly": 1.0
+    },
+    {
+      "param": "ML-KEM-512",
+      "fault": "zero on NTT(r)",
+      "trials": 100,
+      "success": 1.0,
+      "receiver_decrypts_correctly": 1.0
+    },
+    {
+      "param": "ML-KEM-768",
+      "fault": "no fault",
+      "trials": 50,
+      "success": 0.0,
+      "receiver_decrypts_correctly": 1.0
+    },
+    {
+      "param": "ML-KEM-768",
+      "fault": "stuck c=+1",
+      "trials": 50,
+      "success": 0.0,
+      "receiver_decrypts_correctly": 0.0
+    },
+    {
+      "param": "ML-KEM-768",
+      "fault": "stuck generic c",
+      "trials": 50,
+      "success": 0.0,
+      "receiver_decrypts_correctly": 0.0
+    },
+    {
+      "param": "ML-KEM-768",
+      "fault": "random redirection",
+      "trials": 50,
+      "success": 0.0,
+      "receiver_decrypts_correctly": 0.0
+    }
+  ]
+}

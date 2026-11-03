@@ -1,0 +1,49 @@
+{
+ "baseline (unprotected)": {
+  "steps": 4207,
+  "sites": 11,
+  "runs": 27,
+  "outcomes": {
+   "data:silent": 13,
+   "ptr:low-entropy": 6,
+   "ptr:silent": 8
+  }
+ },
+ "RATS+C1+C2, in-register": {
+  "steps": 20347,
+  "sites": 27,
+  "runs": 47,
+  "outcomes": {
+   "data:detected": 7,
+   "data:silent": 13,
+   "ptr:benign": 3,
+   "ptr:crash": 4,
+   "ptr:detected": 12,
+   "ptr:silent": 8
+  }
+ },
+ "RATS, check-then-reload": {
+  "steps": 13983,
+  "sites": 20,
+  "runs": 40,
+  "outcomes": {
+   "data:detected": 3,
+   "data:silent": 13,
+   "ptr:benign": 2,
+   "ptr:crash": 4,
+   "ptr:detected": 4,
+   "ptr:low-entropy": 6,
+   "ptr:silent": 8
+  }
+ },
+ "inline hash (C NTT)": {
+  "steps": 18297,
+  "sites": 5,
+  "runs": 13,
+  "outcomes": {
+   "data:detected": 3,
+   "ptr:benign": 2,
+   "ptr:detected": 8
+  }
+ }
+}

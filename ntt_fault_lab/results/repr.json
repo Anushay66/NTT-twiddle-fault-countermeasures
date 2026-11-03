@@ -1,0 +1,21 @@
+{
+  "montgomery_naive_pass": 0.0,
+  "montgomery_R256": 781,
+  "montgomery_aware_pass": 1.0,
+  "plantard_decoded_max": 3308,
+  "plantard_target_B256": 754,
+  "plantard_naive_pass": 0.0,
+  "plantard_aware_pass": 1.0,
+  "pqm4_padding_entry_127_is_zero": true,
+  "random_word_inrange_rate": 5e-07,
+  "random_word_inrange_theory": 7.75093212723732e-07,
+  "per_sample_miss_theory": 5.960464477539063e-08,
+  "special 0xFFFFFFFF (erased flash)": {
+    "B": 4294963967,
+    "detected": true
+  },
+  "special 0x00000000": {
+    "B": 0,
+    "detected": true
+  }
+}

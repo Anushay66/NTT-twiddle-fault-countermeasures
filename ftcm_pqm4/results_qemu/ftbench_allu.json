@@ -1,0 +1,84 @@
+{
+  "insn": {
+    "empty (timer overhead)": {
+      "min": 4,
+      "median": 4.0,
+      "max": 4,
+      "net_median": 0.0
+    },
+    "ntt_fast (unprotected)": {
+      "min": 4191,
+      "median": 4191.0,
+      "max": 4191,
+      "net_median": 4187.0
+    },
+    "C1 t=1": {
+      "min": 89,
+      "median": 89.0,
+      "max": 89,
+      "net_median": 85.0
+    },
+    "C1 t=2": {
+      "min": 158,
+      "median": 158.0,
+      "max": 158,
+      "net_median": 154.0
+    },
+    "C1 t=4": {
+      "min": 296,
+      "median": 296.0,
+      "max": 296,
+      "net_median": 292.0
+    },
+    "C1 t=8": {
+      "min": 572,
+      "median": 572.0,
+      "max": 572,
+      "net_median": 568.0
+    },
+    "C2 distinct-count proxy": {
+      "min": 6078,
+      "median": 6078.0,
+      "max": 6078,
+      "net_median": 6074.0
+    },
+    "RATS select+verify": {
+      "min": 5950,
+      "median": 5950.0,
+      "max": 5950,
+      "net_median": 5946.0
+    },
+    "protected NTT (this config)": {
+      "min": 16512,
+      "median": 16512.0,
+      "max": 16512,
+      "net_median": 16508.0
+    },
+    "ref C NTT (PQClean-style)": {
+      "min": 16845,
+      "median": 16845.0,
+      "max": 16845,
+      "net_median": 16841.0
+    },
+    "ref C NTT + inline hash": {
+      "min": 18279,
+      "median": 18279.0,
+      "max": 18279,
+      "net_median": 18275.0
+    }
+  },
+  "functional": [
+    "ftbench: C1=1(t=4) C2=1(dmin=128) RATS=1(m=4,mode=poly-hash) reps=50",
+    "FAULT zero (pointer -> zero page)        C1=1 C2=1 RATS=1 released=no output-correct=-",
+    "FAULT stuck 0xFFFFFFFF (erased flash)    C1=1 C2=1 RATS=1 released=no output-correct=-",
+    "FAULT stuck at a VALID twiddle word      C1=0 C2=0 RATS=1 released=no output-correct=-",
+    "FAULT random redirection                 C1=1 C2=0 RATS=1 released=no output-correct=-",
+    "FAULT shifted pointer (+4 bytes)         C1=0 C2=0 RATS=1 released=no output-correct=-",
+    "FAULT other genuine copy (benign)        C1=0 C2=0 RATS=0 released=yes output-correct=yes",
+    "FAULT no fault                           C1=0 C2=0 RATS=0 released=yes output-correct=yes",
+    "INLINE zero                              detected=1",
+    "INLINE shifted pointer (+2 bytes)        detected=1",
+    "INLINE no fault                          detected=0",
+    "ftcm_fault_count=5"
+  ]
+}

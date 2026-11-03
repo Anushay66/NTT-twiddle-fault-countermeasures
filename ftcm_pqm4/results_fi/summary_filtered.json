@@ -1,0 +1,45 @@
+{
+ "Baseline (unprotected)": {
+  "ptr": {
+   "lowH": 6,
+   "silent": 8
+  },
+  "data": {
+   "silent": 13
+  }
+ },
+ "RATS+C1+C2, in-register": {
+  "ptr": {
+   "crash": 4,
+   "detected": 12,
+   "benign": 3,
+   "silent": 8
+  },
+  "data": {
+   "detected": 7,
+   "silent": 13
+  }
+ },
+ "RATS, check-then-reload": {
+  "ptr": {
+   "lowH": 6,
+   "crash": 4,
+   "detected": 4,
+   "benign": 2,
+   "silent": 8
+  },
+  "data": {
+   "detected": 3,
+   "silent": 13
+  }
+ },
+ "Inline hash (C NTT)": {
+  "ptr": {
+   "detected": 8,
+   "benign": 2
+  },
+  "data": {
+   "detected": 3
+  }
+ }
+}

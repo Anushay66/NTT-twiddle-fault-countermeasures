@@ -1,0 +1,163 @@
+{
+ "target": 3,
+ "steps": 18297,
+ "n_sites": 5,
+ "runs": [
+  {
+   "mask": 4,
+   "released": 0,
+   "correct": 0,
+   "distinct": 1,
+   "kind": "ptr",
+   "pc": "0x212",
+   "reg": "r1",
+   "occurrence": 1,
+   "of": 1,
+   "asm": "ldr\tr1, [pc, #16]\t@ (0x224 <t_inline+20>)"
+  },
+  {
+   "mask": 4,
+   "released": 0,
+   "correct": 0,
+   "distinct": 1,
+   "kind": "ptr",
+   "pc": "0xd5a",
+   "reg": "r0",
+   "occurrence": 1,
+   "of": 7,
+   "asm": "ldr\tr0, [sp, #20]"
+  },
+  {
+   "mask": 4,
+   "released": 0,
+   "correct": 0,
+   "distinct": 1,
+   "kind": "ptr",
+   "pc": "0xd5a",
+   "reg": "r0",
+   "occurrence": 4,
+   "of": 7,
+   "asm": "ldr\tr0, [sp, #20]"
+  },
+  {
+   "mask": 4,
+   "released": 0,
+   "correct": 0,
+   "distinct": 1,
+   "kind": "ptr",
+   "pc": "0xd5a",
+   "reg": "r0",
+   "occurrence": 7,
+   "of": 7,
+   "asm": "ldr\tr0, [sp, #20]"
+  },
+  {
+   "mask": 4,
+   "released": 0,
+   "correct": 0,
+   "distinct": 1,
+   "kind": "ptr",
+   "pc": "0xd62",
+   "reg": "r10",
+   "occurrence": 1,
+   "of": 7,
+   "asm": "add.w\tr10, r0, r10, lsl #1"
+  },
+  {
+   "mask": 4,
+   "released": 0,
+   "correct": 0,
+   "distinct": 1,
+   "kind": "ptr",
+   "pc": "0xd62",
+   "reg": "r10",
+   "occurrence": 4,
+   "of": 7,
+   "asm": "add.w\tr10, r0, r10, lsl #1"
+  },
+  {
+   "mask": 4,
+   "released": 0,
+   "correct": 0,
+   "distinct": 1,
+   "kind": "ptr",
+   "pc": "0xd62",
+   "reg": "r10",
+   "occurrence": 7,
+   "of": 7,
+   "asm": "add.w\tr10, r0, r10, lsl #1"
+  },
+  {
+   "mask": 4,
+   "released": 0,
+   "correct": 0,
+   "distinct": 1,
+   "kind": "data",
+   "pc": "0xd74",
+   "reg": "r7",
+   "occurrence": 1,
+   "of": 127,
+   "asm": "ldrsh.w\tr7, [r10, #2]!"
+  },
+  {
+   "mask": 4,
+   "released": 0,
+   "correct": 0,
+   "distinct": 1,
+   "kind": "data",
+   "pc": "0xd74",
+   "reg": "r7",
+   "occurrence": 64,
+   "of": 127,
+   "asm": "ldrsh.w\tr7, [r10, #2]!"
+  },
+  {
+   "mask": 4,
+   "released": 0,
+   "correct": 0,
+   "distinct": 1,
+   "kind": "data",
+   "pc": "0xd74",
+   "reg": "r7",
+   "occurrence": 127,
+   "of": 127,
+   "asm": "ldrsh.w\tr7, [r10, #2]!"
+  },
+  {
+   "mask": 0,
+   "released": 1,
+   "correct": 1,
+   "distinct": 247,
+   "kind": "ptr",
+   "pc": "0xd74",
+   "reg": "r10",
+   "occurrence": 1,
+   "of": 127,
+   "asm": "ldrsh.w\tr7, [r10, #2]!"
+  },
+  {
+   "mask": 4,
+   "released": 0,
+   "correct": 0,
+   "distinct": 1,
+   "kind": "ptr",
+   "pc": "0xd74",
+   "reg": "r10",
+   "occurrence": 64,
+   "of": 127,
+   "asm": "ldrsh.w\tr7, [r10, #2]!"
+  },
+  {
+   "mask": 0,
+   "released": 1,
+   "correct": 1,
+   "distinct": 247,
+   "kind": "ptr",
+   "pc": "0xd74",
+   "reg": "r10",
+   "occurrence": 127,
+   "of": 127,
+   "asm": "ldrsh.w\tr7, [r10, #2]!"
+  }
+ ]
+}

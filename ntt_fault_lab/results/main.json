@@ -1,0 +1,69 @@
+{
+  "trials": 20000,
+  "eta": 2,
+  "t": 4,
+  "m": 4,
+  "seed": 20240601,
+  "rows": [
+    {
+      "fault": "zero",
+      "low_entropy_rate": 1.0,
+      "C1": 1.0,
+      "C2": 1.0,
+      "C2_proxy": 1.0,
+      "C2_proxy_agrees": 1.0,
+      "C3": 1.0,
+      "C": 1.0
+    },
+    {
+      "fault": "stuck c=+1",
+      "low_entropy_rate": 1.0,
+      "C1": 0.0,
+      "C2": 1.0,
+      "C2_proxy": 1.0,
+      "C2_proxy_agrees": 1.0,
+      "C3": 1.0,
+      "C": 1.0
+    },
+    {
+      "fault": "stuck c=-1",
+      "low_entropy_rate": 1.0,
+      "C1": 0.0,
+      "C2": 1.0,
+      "C2_proxy": 1.0,
+      "C2_proxy_agrees": 1.0,
+      "C3": 1.0,
+      "C": 1.0
+    },
+    {
+      "fault": "stuck generic c",
+      "low_entropy_rate": 0.0,
+      "C1": 0.9286,
+      "C2": 0.0,
+      "C2_proxy": 0.0,
+      "C2_proxy_agrees": 1.0,
+      "C3": 1.0,
+      "C": 1.0
+    },
+    {
+      "fault": "random redirection",
+      "low_entropy_rate": 0.0,
+      "C1": 1.0,
+      "C2": 0.0,
+      "C2_proxy": 0.0,
+      "C2_proxy_agrees": 1.0,
+      "C3": 1.0,
+      "C": 1.0
+    },
+    {
+      "fault": "shifted (delta=1)",
+      "low_entropy_rate": 0.0,
+      "C1": 0.0294,
+      "C2": 0.0,
+      "C2_proxy": 0.0,
+      "C2_proxy_agrees": 1.0,
+      "C3": 1.0,
+      "C": 1.0
+    }
+  ]
+}
